@@ -1,0 +1,9 @@
+streamlit
+selenium
+nltk
+matplotlib
+openpyxl
+pandas
+requests
+beautifulsoup4
+webdriver-manager
