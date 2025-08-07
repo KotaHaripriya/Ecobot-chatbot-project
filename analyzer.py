@@ -1,5 +1,7 @@
 import random
 from textblob import TextBlob
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 def analyze_reviews(reviews):
     if not reviews:
@@ -17,4 +19,5 @@ def calculate_eco_score(text):
     count = sum(1 for k in keywords if k in text.lower())
     base_score = 50 + count * 10
     return min(100, base_score)
+
 
