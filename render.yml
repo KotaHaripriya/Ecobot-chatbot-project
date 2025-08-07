@@ -1,8 +1,10 @@
 services:
   - type: web
     name: ecobot
-    env: docker
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py
     plan: free
-    repo: https://github.com/KotaHaripriya/ecobot-chatbot-project
-    branch: main
-    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
