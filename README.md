@@ -91,7 +91,7 @@ Need help deploying? Ask in the issues tab or contact the maintainer.
 
 ## 👤 Author
 
-**Your Name** – [GitHub](https://github.com/KotaHaripriya)
+**Haripriya Kota** – [GitHub](https://github.com/KotaHaripriya)
 
 ---
 
