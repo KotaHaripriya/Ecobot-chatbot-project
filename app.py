@@ -1,6 +1,6 @@
 import streamlit as st
 from analyzer import analyze_reviews, calculate_eco_score
-from __init__ import scrape_all
+from scraper import scrape_all
 from storage import save_to_history, load_history
 import matplotlib.pyplot as plt
 import base64
@@ -98,6 +98,7 @@ if query or st.session_state.get("last_query"):
                 ax.axis('equal')
                 st.subheader("📊 Sentiment Analysis Distribution")
                 st.pyplot(fig)
+
 
 
 
