@@ -8,4 +8,7 @@ requests
 beautifulsoup4
 webdriver-manager
 textblob
+chromedriver-autoinstaller
+
+
 
