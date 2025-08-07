@@ -1,3 +1,6 @@
+from scraper.scrape_amazon import scrape_amazon
+from scraper.scrape_flipkart import scrape_flipkart
+
 def scrape_all(query):
     amazon = scrape_amazon(query)
     flipkart = scrape_flipkart(query)
@@ -21,4 +24,3 @@ def scrape_all(query):
             "source": "Simulated"
         }]
     return combined
-
