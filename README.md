@@ -91,7 +91,7 @@ Need help deploying? Ask in the issues tab or contact the maintainer.
 
 ## 👤 Author
 
-**Haripriya Kota** – [GitHub](https://github.com/KotaHaripriya)
+**Bugslayers** – [GitHub](https://github.com/KotaHaripriya)
 
 ---
 
