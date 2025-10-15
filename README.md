@@ -92,6 +92,10 @@ Need help deploying? Ask in the issues tab or contact the maintainer.
 ## 👤 Author
 
 **Bugslayers** – [GitHub](https://github.com/KotaHaripriya)
+Haripriya Kota
+Nidaharmain Maigeri
+Sanskruti Joshi
+Sejal Mote
 
 ---
 
